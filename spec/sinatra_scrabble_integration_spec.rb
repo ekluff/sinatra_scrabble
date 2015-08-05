@@ -9,6 +9,6 @@ describe('the scrabble score path', {:type => :feature}) do
     visit('/')
     fill_in('word', :with => 'TacocaT')
     click_button('Scrabble me!')
-    expect(page).to have_content('TacocaT is worth 11 points.')
+    expect(page).to have_content('"TacocaT" is worth 11 points.')
   end
 end
