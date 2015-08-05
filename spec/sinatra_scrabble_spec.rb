@@ -1,5 +1,5 @@
 require('rspec')
-require('scrabble_score')
+require('sinatra_scrabble')
 
 describe('String#scrabble_score') do
   it("returns a scrabble score for a letter") do
